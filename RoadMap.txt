@@ -1,0 +1,56 @@
+Установка:
+	Рабочее окружение
+
+Основы:
+	Встроенные типы и операции с ними
+	Функции
+	Работа с файлами
+	ООП
+	Git
+
+Работа с пакетами:
+	Pipenv
+	Virtualenv
+	Setuptools
+	Pip
+
+Алгоритмы и структуры данных:
+	Простые алгоритмы на Python
+	Циклы, Рекурсия, Функции
+	Массивы, Кортежи, Множества, Списки
+	Эмпирическая оценка алгоритмов
+	Коллекции, Список, Очередь, Словарь
+	Динамическая память
+	Алгоритмы сортировки
+	Деревья, Хеш-функция
+
+Выбор направления:
+
+	Data Science:
+		TensorFlow
+		PyTorch
+		Keras
+		NumPy
+		Pandas
+		Matplotlib
+		scikit-learn
+
+	Веб-разработка:
+
+		Sync:
+			Pyramid
+			Flask
+			Django
+
+		Async:
+			Tornado
+			gevent
+			asyncio
+			aiohttp
+			Celery
+
+Тестирование:
+	doctest
+	py.test
+	Selenium
+	unittest/PyUnit

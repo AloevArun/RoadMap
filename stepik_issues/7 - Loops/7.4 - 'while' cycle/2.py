@@ -1,6 +1,6 @@
 while True:
     text = input()
-    if text != 'КОНЕЦ':
+    if text not in ('КОНЕЦ', 'конец'):
         print(text)
     else:
         break

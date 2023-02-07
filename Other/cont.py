@@ -1,9 +1,17 @@
-A = []  # список
-B = ()  # кортеж
-C = set()  # множество
-D = {}  # словарь
-print(type(A), type(B), type(C), type(D), sep='\n')
-A = [1, 2, 3, 4, 5, 6]  # присвоили A новый список
-print(type(A))
-A = (1, 2, 3, 4, 5, 6)  # тип A изменился на tuple!
-print(type(A))
+nums = []
+is_mult_flag = False
+
+n = int(input())
+for _ in range(n):
+    nums.append(int(input()))
+is_mult = int(input())
+
+for i in range(n - 1):
+    for j in range(i + 1, n):
+        if nums[i] * nums[j] == is_mult:
+            is_mult_flag = True
+            break
+
+print('ДА' if is_mult_flag else 'НЕТ')
+
+
